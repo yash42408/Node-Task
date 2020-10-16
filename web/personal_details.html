@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Personal-Details</title> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>			
+<link rel="stylesheet"
+href= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity= 
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous">	 
+		
+<link rel="stylesheet" type="text/css" href="style1.css"> 
+		
+</head> 
+<body> 
+	
+	<br> 
+	<br> 
+	<br> 
+	<div class="container" > 
+		<div class="row"> 
+		<div class="col-md-3"> 
+					
+		</div> 
+				
+		<div class="col-md-6 main"> 
+					
+			<form action="" method="post"> 
+					
+			<h1>Personal Details</h1> 
+
+                        <label for="hobbies">Please Enter Your Hobbies</label>							
+			<input class="box" type="text" name="hobbies" id="hobbies" required /><br> 
+							
+                        <label for="profilePic">Please Select Your Profile Picture</label>
+                        <input class="box" type="file" name="profile_pic" id="profile" required /><br> 
+						<p id="b64"></p>
+			
+                        <label for="address">Please Enter Your Address</label>
+                        <input class="box" type="text" name="address" id="address"
+			placeholder="Please Enter Start Year" required /><br> 
+			
+			<input type="button" class="btn btn-primary"
+			onclick="submitDetails()" value="Register" /><br> 
+					
+			</form> 
+					
+		</div> 
+				
+				
+		<div class="col-md-3"> 
+		</div> 
+				
+	</div> 
+	</div> 
+<script>
+ var blobImage='';
+
+function readFile() {
+  console.log('here')
+  if (this.files && this.files[0]) {
+    
+    var FR= new FileReader();
+    
+    FR.addEventListener("load", function(e) {
+      b64Image = e.target.result;
+	  blobImage = b64Image.split(',')[1]
+    }); 
+    
+    FR.readAsDataURL( this.files[0] );
+  }
+  
+}
+
+document.getElementById("profile").addEventListener("change", readFile);
+
+
+function submitDetails() {
+		  //backend call
+		console.log(blobImage);  
+		var postData =  {
+			'userId':window.localStorage.getItem("userId"),
+			'hobbies':document.getElementById("hobbies").value,
+			'address':document.getElementById("address").value,
+			'profilePic':null
+		};
+$(function() {
+    $.ajax({
+		type:'POST',
+        url: 'http://localhost:51001/apis/personal-details',
+		data:postData,
+		headers:{
+          "sessionId":window.localStorage.getItem("sessionId")
+		},
+        success: function(data) {
+			if(data.status_code==201){
+				console.log(data);
+				window.location.href = "http://localhost:51002/wellcome";
+			}
+			else if(data.status_code==401){
+				alert('You are not Authorised, Please Login again');
+			}
+
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            alert('error ' + textStatus + " " + errorThrown);
+        }
+    });
+});
+    } 
+
+
+</script>
+</body> 
+
+</html>	 

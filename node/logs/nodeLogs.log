@@ -1,0 +1,74 @@
+Tue Sep 22 2020 11:33:54 GMT+0530 (India Standard Time) - info: node server started on port 51001
+Tue Sep 22 2020 11:33:54 GMT+0530 (India Standard Time) - info: MySql DataBase connected
+Tue Sep 22 2020 11:35:01 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 11:35:01 GMT+0530 (India Standard Time) - info: User already registered
+Tue Sep 22 2020 11:38:03 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 11:38:03 GMT+0530 (India Standard Time) - info: User already registered
+Tue Sep 22 2020 11:38:21 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 11:38:21 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:12:03 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:12:03 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:29:50 GMT+0530 (India Standard Time) - info: node server started on port 51001
+Tue Sep 22 2020 12:29:50 GMT+0530 (India Standard Time) - info: MySql DataBase connected
+Tue Sep 22 2020 12:29:57 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:29:58 GMT+0530 (India Standard Time) - info: Succesfully Created User in registration details
+Tue Sep 22 2020 12:29:58 GMT+0530 (India Standard Time) - info: successfully Created User
+Tue Sep 22 2020 12:30:20 GMT+0530 (India Standard Time) - info: Successully fetched user by session
+Tue Sep 22 2020 12:30:20 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by session
+Tue Sep 22 2020 12:30:20 GMT+0530 (India Standard Time) - info: successfuly created university details of user
+Tue Sep 22 2020 12:30:20 GMT+0530 (India Standard Time) - info: Successfully Created university Details in Servce
+Tue Sep 22 2020 12:30:20 GMT+0530 (India Standard Time) - info: SuccessFully created university Record
+Tue Sep 22 2020 12:30:27 GMT+0530 (India Standard Time) - info: Successully fetched user by session
+Tue Sep 22 2020 12:30:27 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by session
+Tue Sep 22 2020 12:30:27 GMT+0530 (India Standard Time) - info: successfuly created Personal details of user
+Tue Sep 22 2020 12:30:27 GMT+0530 (India Standard Time) - info: Successfully Created Personal Details in Servce
+Tue Sep 22 2020 12:30:27 GMT+0530 (India Standard Time) - info: SuccessFully created Personal Record
+Tue Sep 22 2020 12:34:20 GMT+0530 (India Standard Time) - info: Successully fetched user by session
+Tue Sep 22 2020 12:34:20 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by session
+Tue Sep 22 2020 12:34:20 GMT+0530 (India Standard Time) - error: Error in creating Personal details
+Tue Sep 22 2020 12:34:20 GMT+0530 (India Standard Time) - error: Error while creating Personal Details
+Tue Sep 22 2020 12:34:20 GMT+0530 (India Standard Time) - error: Error in creating Personal Record
+Tue Sep 22 2020 12:36:46 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:36:46 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:49:18 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:49:18 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:49:58 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:49:58 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:51:47 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:51:47 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:53:09 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:53:09 GMT+0530 (India Standard Time) - info: User already registered
+Tue Sep 22 2020 12:53:30 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:53:30 GMT+0530 (India Standard Time) - info: Unauthorised User wrong password
+Tue Sep 22 2020 12:53:51 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:53:51 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:55:13 GMT+0530 (India Standard Time) - info: Successully fetched user by session
+Tue Sep 22 2020 12:55:13 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by session
+Tue Sep 22 2020 12:55:13 GMT+0530 (India Standard Time) - info: Unauthorised user
+Tue Sep 22 2020 12:55:31 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:55:31 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:57:43 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:57:43 GMT+0530 (India Standard Time) - info: User already registered
+Tue Sep 22 2020 12:58:00 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:58:00 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 12:59:01 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:59:02 GMT+0530 (India Standard Time) - info: Succesfully Created User in registration details
+Tue Sep 22 2020 12:59:02 GMT+0530 (India Standard Time) - info: successfully Created User
+Tue Sep 22 2020 12:59:14 GMT+0530 (India Standard Time) - info: Successully fetched user by session
+Tue Sep 22 2020 12:59:14 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by session
+Tue Sep 22 2020 12:59:14 GMT+0530 (India Standard Time) - info: successfuly created university details of user
+Tue Sep 22 2020 12:59:14 GMT+0530 (India Standard Time) - info: Successfully Created university Details in Servce
+Tue Sep 22 2020 12:59:14 GMT+0530 (India Standard Time) - info: SuccessFully created university Record
+Tue Sep 22 2020 12:59:28 GMT+0530 (India Standard Time) - info: Successully fetched user by session
+Tue Sep 22 2020 12:59:28 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by session
+Tue Sep 22 2020 12:59:28 GMT+0530 (India Standard Time) - info: successfuly created Personal details of user
+Tue Sep 22 2020 12:59:28 GMT+0530 (India Standard Time) - info: Successfully Created Personal Details in Servce
+Tue Sep 22 2020 12:59:28 GMT+0530 (India Standard Time) - info: SuccessFully created Personal Record
+Tue Sep 22 2020 12:59:45 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 12:59:45 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 13:01:28 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 13:01:28 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 13:10:53 GMT+0530 (India Standard Time) - info: Succesfully Fetched user Data by emailId
+Tue Sep 22 2020 13:10:53 GMT+0530 (India Standard Time) - info: Successfully Logged In
+Tue Sep 22 2020 13:42:47 GMT+0530 (India Standard Time) - info: node server started on port 51001
+Tue Sep 22 2020 13:42:48 GMT+0530 (India Standard Time) - info: MySql DataBase connected

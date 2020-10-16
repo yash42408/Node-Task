@@ -1,0 +1,20 @@
+Steps 1: first install npm install -g http-server.
+
+
+step 2: Import nodetask1.sql file into your mysql server
+
+steps 3:then server all the static pages on http-server using this command
+         
+                 C:\Users\DELL\Desktop\web>http-server -p 51002
+
+steps 4:then run the index.js file using this command:
+
+                node index.js  //which will start the server on port 51001
+
+steps 5:then execute that url on browser:
+
+                  http://localhost:51002/login
+
+
+
+        

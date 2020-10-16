@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Wellcome</title> 
+		
+		
+<link rel="stylesheet"
+href= 
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity= 
+"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous">	 
+		
+<link rel="stylesheet" type="text/css" href="style1.css"> 
+		
+</head> 
+<body> 
+	
+	<br> 
+	<br> 
+	<br> 
+	<div class="container" > 
+		<div class="row"> 
+		<div class="col-md-3"> 
+					
+		</div> 
+				
+		<div class="col-md-6 main"> 
+			<h1>Wellcome on Codes for Tomorrow</h1>	
+
+			<form>
+
+             <input type="button" id="submitDetails"
+			onclick="logOut()" value="LogOut" /><br>
+
+            </form>
+		</div> 		
+	</div> 
+	</div> 
+
+<script>
+	function logOut() {
+		  //backend call
+		
+       localStorage.clear();
+       window.location.href = "http://localhost:51002/login";	
+}
+</script>   
+</body> 
+</html>	 
